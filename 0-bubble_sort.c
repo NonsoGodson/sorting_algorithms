@@ -8,9 +8,9 @@
  *
  * Return: void
  */
-void bubble_sort(int *array, size_t size)
+void bubble_sort(int *array, size_p size)
 {
-size_t i, n, new_n;
+size_p i, n, new_n;
 int swap;
 
 if (array == NULL || size < 2)
